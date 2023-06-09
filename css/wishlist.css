@@ -1,0 +1,250 @@
+@import url('./profile.css');
+@import url('./style.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+.random{
+    display: flex;
+}
+.sidenav-wishlist{
+   height: 100%;
+   position: sticky;
+   z-index: 100;
+   left: 100px;
+   padding-top: 50px;
+   width: 250px;
+}
+.wishlist {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    height: fit-content;
+}
+
+.wishlist hr {
+    width: 800px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.wishlist #total-wishlist-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-family: 'Signika', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    width: 800px;
+
+}
+.wishlist #my-wishlist{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#total-wishlist-items #recent {
+    color: black;
+    font-size: 0.9em;
+    position: relative;
+    right: 100px;
+    font-weight: 300;
+}
+
+#total-wishlist-items #sort form {
+    display: flex;
+    align-items: center;
+    width: 240px;
+}
+
+#total-wishlist-items #sort form label {
+    width: 100px;
+    font-size: 0.8em;
+    font-weight: 600;
+}
+
+#total-wishlist-items #sort form select {
+    font-size: 0.8em;
+    padding: 0 3px;
+}
+
+#total-wishlist-items div i {
+    color: #ff8800;
+}
+
+#count-wishlist-items {
+    color: black;
+}
+
+#my-wishlist .wishlist-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.wishlist-item .sec1 {
+    width: 20%;
+}
+
+.wishlist-item .sec1 img {
+    width: 100%;
+}
+
+.wishlist-item .sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width: 500px;
+    padding-left: 20px;
+    position: relative;
+    bottom: 8px;
+}
+
+.wishlist-item .sec2 .title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+.wishlist-item .sec2 p {
+    color: black;
+    font-size: 0.9em;
+    font-family: 'Signika', sans-serif;
+    padding: 15px 0;
+}
+
+.wishlist-item .sec2 .ratings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wishlist-item .sec2 .ratings p {
+    padding: 3px 0 0 10px;
+}
+
+.wishlist-item .sec2 .ratings i {
+    padding: 2px;
+}
+
+.wishlist-item .sec2 .wishlist-price {
+    position: relative;
+    top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.wishlist-item .sec2 .wishlist-price .price {
+    padding-left: 6px;
+}
+
+#percent {
+    color: orange;
+    font-weight: 700;
+    padding-left: 2px;
+}
+
+.wishlist-item .sec2 .input-group {
+    width: 150px;
+    background-color: rgb(240, 232, 232);
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 0.9em;
+    margin-top: 5px;
+}
+
+.wishlist-item .sec2 .input-group select {
+    border: 0px;
+    background: rgb(240, 232, 232);
+    width: fit-content;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+}
+
+.wishlist-item .sec2 select option {
+    text-align: center;
+    background-color: rgb(240, 232, 232);
+    color: black;
+    font-weight: 700;
+}
+
+
+.wishlist-item .sec2 .wishlist-price {
+    position: relative;
+    bottom: 35px;
+}
+
+.wishlist-item .sec2 .wishlist-price .discounted-price {
+    font-weight: 700;
+}
+
+.wishlist-item .sec2 .wishlist-price .price {
+    text-decoration: line-through;
+}
+
+.wishlist-item .sec2 .wishlist-price p {
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    padding-top: 8px;
+    text-align: end;
+}
+
+.wishlist-item .sec2 .wishlist-price .price span {
+    text-decoration: none;
+    color: #ffa500;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.wishlist-item .sec2 .btn-group #wishlist-to-cart {
+    color: white;
+    font-weight: 700;
+    background-color: #ff8800;
+    border-radius: 10px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    font-size: 0.9em;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.wishlist-item .sec2 .btn-group #wishlist-to-cart:hover {
+    cursor: pointer;
+    color: black;
+}
+
+.wishlist-item .sec2 .btn-group #wishlist-remove {
+    background-color: white;
+    border: 0px;
+    font-size: 0.9em;
+    margin-left: 10px;
+    border-bottom: 0px;
+    transition: border-bottom 0.01s;
+    
+
+}
+
+.wishlist-item .sec2 .btn-group #wishlist-remove:hover {
+    border-bottom: 2px solid orange;
+    cursor: pointer;
+}
+
+.wishlist-item .sec2 .btn-group div {
+    width: 2px;
+    height: 15px;
+    background-color: rgb(68, 66, 66);
+    margin-top: 10px;
+}

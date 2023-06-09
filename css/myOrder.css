@@ -1,0 +1,117 @@
+
+.order {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    height: fit-content;
+}
+
+.order hr {
+    width: 800px;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.order #total-order-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.3em;
+    font-family: 'Signika', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    width: 800px;
+
+}
+.order #my-order{
+    width: 800px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+
+
+.order #my-order .order-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.order-item .sec1 {
+    width: 15%;
+}
+
+.order-item .sec1 img {
+    width: 100%;
+}
+
+.order-item .sec2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.order-item .sec2 .title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+.order-item .sec2 p {
+    color: gray;
+    font-size: 0.9em;
+    font-family: 'Signika', sans-serif;
+    padding: 10px 0;
+}
+.order-item .sec3 p{
+    position: relative;
+    bottom: 30px;
+    color: black;
+    font-weight: 700;
+}
+.order-item .sec4{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+}
+.order-item .sec4 div{
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+    margin-right: 10px;
+}
+.order-item .sec4 div i{
+    color: rgb(144, 224, 24);
+    font-weight: 900;
+    font-size: 1.1em;
+    padding-right: 4px;
+    padding-bottom: 5px;
+}
+.order-item .sec4 div p{
+    font-size: 0.9em;
+    color: black;
+    font-weight: 600;
+    padding-top: 8px;
+}
+.order-item .sec4 p{
+    font-size: 0.8em;
+    color: gray;
+    padding-left: 5px;
+    padding-bottom: 15px;
+}
+.order-item .sec4 a{
+    text-decoration: underline;
+    font-size: 0.9em;
+    font-weight: 700;
+    padding-left: 5px;
+}

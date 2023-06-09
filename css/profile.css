@@ -1,0 +1,106 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+
+@import url('./style.css');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 60px!important;
+}
+#main #sidebar{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    width:250px ;
+}
+#main #profile{
+    position: relative;
+    right: 60px;
+    bottom: 40px;
+}
+
+.aside{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 200px;
+}
+.aside img{
+    width: 80%;
+    margin-top: 10px;
+    padding: 2px 15px;
+}
+.aside h3{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 150px;
+    padding: 2px 20px;
+}
+.aside h2{
+    font-weight: 700;
+    font-size: 0.9em;
+    width: 180px;
+    padding: 5px 20px;
+}
+.aside p{
+    font-size: 0.8em;
+    line-height: 20px;
+    width: 180px;
+    padding:2px 20px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    transition: font-weight 0.2s;
+}
+.aside p:hover,.aside h2:hover{
+    background-color: rgb(236, 231, 231);
+    color:rgb(255, 95, 31);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+
+#main #profile h2{
+    font-size: 1.5em;
+    color: rgb(247, 126, 12);
+    font-family: 'Signika', sans-serif;
+}
+#main  #profile hr{
+    width: 700px
+}
+#main  #profile table{
+    margin-left: 80px;
+    margin-top: 30px;
+}
+#profile table tr td{
+    padding:20px;
+    font-size: 0.85em;
+}
+#profile table tr td:nth-child(2){
+    font-weight: 700;
+}
+#main #profile button{
+    position: relative;
+    left: 120px;
+    top: 20px;
+}
+
+#profile table tr:hover{
+    background-color: rgb(240, 235, 235);
+    cursor: pointer;
+    border-radius: 5px;
+}
+

@@ -1,0 +1,297 @@
+@import url('./reset.css');
+
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,600,700,800|Poppins:400,500,600,700|Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Signika:wght@500&display=swap');
+
+
+
+#total-cart-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 52%;
+    font-size: 1.1em;
+    font-family:'Signika', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    margin: 70px 0px 10px 170px;
+}
+#total-cart-items p span{
+    padding: 5px;
+    color: black;
+}
+#main-section{
+    display: flex;
+    align-items:flex-start;
+}
+#my-cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 55%;
+    position: relative;
+    left: 146px;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 15px 20px;
+    border: 2px solid rgb(245, 242, 242);
+}
+
+.cart-item .sec1 {
+    width: 18%;
+}
+
+.cart-item .sec1 img {
+    width: 100%;
+}
+
+.cart-item .sec2 {
+    width: 50%;
+}
+
+.cart-item .sec2 div .title {
+    font-weight: 700;
+    text-transform: capitalize;
+    font-size: 1.1em;
+    color: black;
+}
+
+.cart-item .sec2 div p {
+    color: gray;
+    font-size: 0.9em;
+    font-family: 'Signika', sans-serif;
+    padding: 5px 10px 5px 10px;
+}
+
+.cart-item .sec2 .size-qty {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Signika', sans-serif;
+    margin-top: 15px;
+}
+
+.cart-item .sec2 .size-qty .input-group {
+    width: 150px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(240, 232, 232);
+    padding: 5px;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.cart-item .sec2 .size-qty .qty {
+    width: 80px;
+}
+
+.cart-item .sec2 .size-qty select {
+    border: none;
+    background: rgb(240, 232, 232);
+    width: fit-content;
+    padding: 0;
+    cursor: pointer;
+}
+
+.cart-item .sec2 .size-qty select option {
+    text-align: center;
+    background-color: white;
+    color: black;
+}
+.cart-item .sec2 .size-qty .btn-qty{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 55px;
+    bottom: 7px;
+}
+.cart-item .sec2 .size-qty .btn-qty p{
+    width: 50px;
+    padding: 5px;
+    background-color: rgb(240, 232, 232);
+    color: black;
+    font-size: 1.6em;
+    text-align: center;
+}
+.cart-item .sec2 .size-qty .btn-qty button{
+    background-color: rgb(240, 232, 232);
+    color: black;
+    font-weight: 900;
+    font-size: 1.6em;
+    padding: 5px 10px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    cursor: pointer;
+    outline: none;
+}
+.cart-item .sec2 .size-qty .btn-qty button:hover{
+    color: orange;
+}
+.cart-item .sec3 {
+    position: relative;
+    bottom: 35px;
+}
+
+.sec3 .discounted-price {
+    font-weight: 700;
+}
+
+.sec3 .price {
+    text-decoration: line-through;
+}
+
+.sec3 p {
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 1em;
+    padding-top: 8px;
+    text-align: end;
+}
+
+.sec3 .price span {
+    text-decoration: none;
+    color: #ffa500;
+    font-weight: 500;
+    font-size: 1em;
+}
+
+.sec3 .delivery {
+    font-size: 0.8em;
+    padding-top: 10px;
+}
+
+.cart-btns {
+    border: 2px solid rgb(245, 242, 242);
+    border-top: 0px;
+    padding: 15px 20px 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cart-btns .btn {
+    border: 0px;
+    background-color: white;
+    font-weight: 700;
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 0.7px;
+    font-size: 1em;
+    border-radius: 0px;
+    transform: all 1s;
+}
+
+.cart-btns .btn:hover {
+    background-color: aliceblue;
+    border-radius: 15px;
+}
+
+.cart-btns div {
+    padding: 0 15px;
+}
+
+#order {
+    border: 2px solid rgb(240, 232, 232);
+    width: 22%;
+    padding: 15px;
+    position: relative;
+    left: 145px;
+    top: 15px;
+}
+
+#order .coupons {
+    margin-bottom: 10px;
+}
+#order hr{
+    width: 100%;
+}
+#order .coupons p {
+    font-weight: 700;
+    font-family: 'Signika', sans-serif;
+    padding-bottom: 12px;
+}
+
+#order .coupons div form input {
+    border: none;
+    padding: 4px;
+    width: 120px;
+    font-size: 0.85em;
+    outline: rgb(240, 232, 232);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#order .coupons div form button {
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: 600;
+    background-color: white;
+    font-size: 0.9em;
+    font-family: 'Signika', sans-serif;
+    letter-spacing: 1px;
+    position: relative;
+    bottom: 2px;
+    cursor: pointer;
+    border:2px solid #ff9800;
+    color: orange;
+    transition: all 0.1s;
+}
+
+#order .coupons div form button:hover {
+    background: #ff9800;
+    color: white;
+}
+
+#order .coupons div form img {
+    position: relative;
+    top: 10px;
+}
+.values p{
+    font-size: 0.9em;
+    font-family:'Signika', sans-serif ;
+    padding-bottom: 6px;
+}
+.values .table td{
+    border: 0px;
+    font-size: 0.85em;
+    padding-bottom: 8px;
+}
+
+#order .total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 45px 0 15px;
+    font-weight: 700;
+    font-family:'Signika', sans-serif  ;
+    font-size: 1em;
+    letter-spacing: 0.8px;
+}
+#order .btn{
+    background-color: #ff9800;
+    color: white;
+    padding: 5px;
+    font-size: 0.9em;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-weight: 300;
+    transition: all 0.3s;
+}
+#order .btn:hover{
+    color: black;
+    font-weight: 700;
+}

@@ -1,0 +1,136 @@
+{
+    "Products": [{
+            "id": "1",
+            "name": "Awesome Product 1",
+            "price": "2850.0",
+            "priceAfterDiscount": "2540.0",
+            "imageName": "product1",
+            "isNew": "TRUE",
+            "ratings": "3.2",
+            "color":"Blue",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "2",
+            "name": "Cool Product 2",
+            "price": "6390",
+            "priceAfterDiscount": "4050",
+            "imageName": "product2",
+            "isNew": "FALSE",
+            "ratings": "4.8",
+            "color":"Pink",
+            "soldBy":"Loremipsum dolorsit private limited"
+
+        },
+        {
+            "id": "3",
+            "name": "Amazing Product 3",
+            "price": "2640",
+            "priceAfterDiscount": "1970",
+            "imageName": "product3",
+            "isNew": "FALSE",
+            "ratings": "2.7",
+            "color":"white",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "4",
+            "name": "Huge Product 4",
+            "price": "5810",
+            "priceAfterDiscount": "5000",
+            "imageName": "product4",
+            "isNew": "TRUE",
+            "ratings": "4.1",
+            "color":"white",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "5",
+            "name": "Tiny Product 5",
+            "price": "5832.0",
+            "priceAfterDiscount": "4861.0",
+            "imageName": "product5",
+            "isNew": "FALSE",
+            "ratings": "5",
+            "color":"white",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "6",
+            "name": "Expensive Product 6",
+            "price": "8240",
+            "priceAfterDiscount": "7777",
+            "imageName": "product6",
+            "isNew": "TRUE",
+            "ratings": "4.4",
+            "color":"yellow",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "7",
+            "name": "Awesome Product 1",
+            "price": "2845",
+            "priceAfterDiscount": "2500",
+            "imageName": "product1",
+            "isNew": "TRUE",
+            "ratings": "3.2",
+            "color":"white",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "8",
+            "name": "Cool Product 2",
+            "price": "6390",
+            "priceAfterDiscount": "4000",
+            "imageName": "product2",
+            "isNew": "FALSE",
+            "ratings": "4.8",
+            "color":"white",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "9",
+            "name": "Amazing Product 3",
+            "price": "2643",
+            "priceAfterDiscount": "1950",
+            "imageName": "product3",
+            "isNew": "FALSE",
+            "ratings": "2.7",
+            "color":"white",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "10",
+            "name": "Huge Product 4",
+            "price": "5815",
+            "priceAfterDiscount": "5069",
+            "imageName": "product4",
+            "isNew": "TRUE",
+            "ratings": "4.1",
+            "color":"white",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "11",
+            "name": "Tiny Product 5",
+            "price": "5830",
+            "priceAfterDiscount": "4800",
+            "imageName": "product5",
+            "isNew": "FALSE",
+            "ratings": "5",
+            "color":"red",
+            "soldBy":"Loremipsum dolorsit private limited"
+        },
+        {
+            "id": "12",
+            "name": "Expensive Product 6",
+            "price": "8245",
+            "priceAfterDiscount": "7007",
+            "imageName": "product6",
+            "isNew": "TRUE",
+            "ratings": "4.4",
+            "color":"green",
+            "soldBy":"Loremipsum dolorsit private limited"
+        }
+    ]
+}
